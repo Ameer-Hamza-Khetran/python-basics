@@ -43,7 +43,7 @@ print(guests_invitation)
 
 #List Sorting
 
-cars:str = ['bmw', 'audi', 'toyota', 'sabaru']
+cars = ['bmw', 'audi', 'toyota', 'sabaru']
 # cars.sort()
 # print(cars)
 # cars.sort(reverse=True)
