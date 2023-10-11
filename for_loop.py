@@ -1,3 +1,14 @@
+for number in range(3, 15):
+    print(number)
+print("-------------------")
+for number in range(3, 15, 4):
+    print(number)
+print("-------------------")
+numbers = list(range(11))
+print(numbers)
+even_numbers = list(range(0, 101, 2))
+print(even_numbers)
+
 cars = ['Honda', 'Toyota', 'Audi']
 for vehicle in cars:
     print(vehicle)
@@ -18,7 +29,6 @@ for animal in animal_names:
     print(f"A {animal} would be a great pet")
 print("Any of these animals would make a great pet.")
 
-#for_loop01.py
 square_numbers = []
 for num in range(1, 11):
     square_numbers.append(num ** 2)
@@ -55,3 +65,11 @@ cubes_list = [cubes**3 for cubes in range(1, 11)]
 for value in cubes_list:
     print(f"Cube is {value}")
 print(cubes_list)
+
+
+
+
+
+
+
+
